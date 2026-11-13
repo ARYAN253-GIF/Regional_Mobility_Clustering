@@ -1,0 +1,356 @@
+Dataset,K,Region,Cluster
+All_36_Regions,2,Andaman and Nicobar Islands,0
+All_36_Regions,2,Andhra Pradesh,0
+All_36_Regions,2,Arunachal Pradesh,0
+All_36_Regions,2,Assam,0
+All_36_Regions,2,Bihar,0
+All_36_Regions,2,Chandigarh,0
+All_36_Regions,2,Chhattisgarh,0
+All_36_Regions,2,Dadra and Nagar Haveli,0
+All_36_Regions,2,Daman and Diu,0
+All_36_Regions,2,Delhi,0
+All_36_Regions,2,Goa,0
+All_36_Regions,2,Gujarat,0
+All_36_Regions,2,Haryana,0
+All_36_Regions,2,Himachal Pradesh,0
+All_36_Regions,2,Jammu and Kashmir,1
+All_36_Regions,2,Jharkhand,0
+All_36_Regions,2,Karnataka,0
+All_36_Regions,2,Kerala,0
+All_36_Regions,2,Lakshadweep,0
+All_36_Regions,2,Madhya Pradesh,0
+All_36_Regions,2,Maharashtra,0
+All_36_Regions,2,Manipur,0
+All_36_Regions,2,Meghalaya,0
+All_36_Regions,2,Mizoram,0
+All_36_Regions,2,Nagaland,0
+All_36_Regions,2,Odisha,0
+All_36_Regions,2,Puducherry,0
+All_36_Regions,2,Punjab,0
+All_36_Regions,2,Rajasthan,0
+All_36_Regions,2,Sikkim,0
+All_36_Regions,2,Tamil Nadu,0
+All_36_Regions,2,Telangana,0
+All_36_Regions,2,Tripura,0
+All_36_Regions,2,Uttar Pradesh,0
+All_36_Regions,2,Uttarakhand,0
+All_36_Regions,2,West Bengal,0
+All_36_Regions,3,Andaman and Nicobar Islands,0
+All_36_Regions,3,Andhra Pradesh,2
+All_36_Regions,3,Arunachal Pradesh,0
+All_36_Regions,3,Assam,0
+All_36_Regions,3,Bihar,0
+All_36_Regions,3,Chandigarh,2
+All_36_Regions,3,Chhattisgarh,0
+All_36_Regions,3,Dadra and Nagar Haveli,2
+All_36_Regions,3,Daman and Diu,2
+All_36_Regions,3,Delhi,2
+All_36_Regions,3,Goa,2
+All_36_Regions,3,Gujarat,2
+All_36_Regions,3,Haryana,2
+All_36_Regions,3,Himachal Pradesh,0
+All_36_Regions,3,Jammu and Kashmir,1
+All_36_Regions,3,Jharkhand,0
+All_36_Regions,3,Karnataka,2
+All_36_Regions,3,Kerala,0
+All_36_Regions,3,Lakshadweep,2
+All_36_Regions,3,Madhya Pradesh,0
+All_36_Regions,3,Maharashtra,2
+All_36_Regions,3,Manipur,0
+All_36_Regions,3,Meghalaya,0
+All_36_Regions,3,Mizoram,0
+All_36_Regions,3,Nagaland,0
+All_36_Regions,3,Odisha,0
+All_36_Regions,3,Puducherry,2
+All_36_Regions,3,Punjab,2
+All_36_Regions,3,Rajasthan,2
+All_36_Regions,3,Sikkim,0
+All_36_Regions,3,Tamil Nadu,2
+All_36_Regions,3,Telangana,2
+All_36_Regions,3,Tripura,0
+All_36_Regions,3,Uttar Pradesh,2
+All_36_Regions,3,Uttarakhand,0
+All_36_Regions,3,West Bengal,2
+All_36_Regions,4,Andaman and Nicobar Islands,0
+All_36_Regions,4,Andhra Pradesh,3
+All_36_Regions,4,Arunachal Pradesh,0
+All_36_Regions,4,Assam,0
+All_36_Regions,4,Bihar,3
+All_36_Regions,4,Chandigarh,1
+All_36_Regions,4,Chhattisgarh,3
+All_36_Regions,4,Dadra and Nagar Haveli,3
+All_36_Regions,4,Daman and Diu,3
+All_36_Regions,4,Delhi,1
+All_36_Regions,4,Goa,3
+All_36_Regions,4,Gujarat,1
+All_36_Regions,4,Haryana,1
+All_36_Regions,4,Himachal Pradesh,3
+All_36_Regions,4,Jammu and Kashmir,2
+All_36_Regions,4,Jharkhand,3
+All_36_Regions,4,Karnataka,1
+All_36_Regions,4,Kerala,0
+All_36_Regions,4,Lakshadweep,3
+All_36_Regions,4,Madhya Pradesh,3
+All_36_Regions,4,Maharashtra,1
+All_36_Regions,4,Manipur,0
+All_36_Regions,4,Meghalaya,0
+All_36_Regions,4,Mizoram,0
+All_36_Regions,4,Nagaland,0
+All_36_Regions,4,Odisha,0
+All_36_Regions,4,Puducherry,1
+All_36_Regions,4,Punjab,1
+All_36_Regions,4,Rajasthan,3
+All_36_Regions,4,Sikkim,3
+All_36_Regions,4,Tamil Nadu,1
+All_36_Regions,4,Telangana,1
+All_36_Regions,4,Tripura,0
+All_36_Regions,4,Uttar Pradesh,3
+All_36_Regions,4,Uttarakhand,3
+All_36_Regions,4,West Bengal,1
+All_36_Regions,5,Andaman and Nicobar Islands,3
+All_36_Regions,5,Andhra Pradesh,0
+All_36_Regions,5,Arunachal Pradesh,3
+All_36_Regions,5,Assam,3
+All_36_Regions,5,Bihar,0
+All_36_Regions,5,Chandigarh,2
+All_36_Regions,5,Chhattisgarh,0
+All_36_Regions,5,Dadra and Nagar Haveli,4
+All_36_Regions,5,Daman and Diu,4
+All_36_Regions,5,Delhi,2
+All_36_Regions,5,Goa,4
+All_36_Regions,5,Gujarat,4
+All_36_Regions,5,Haryana,4
+All_36_Regions,5,Himachal Pradesh,0
+All_36_Regions,5,Jammu and Kashmir,1
+All_36_Regions,5,Jharkhand,0
+All_36_Regions,5,Karnataka,4
+All_36_Regions,5,Kerala,3
+All_36_Regions,5,Lakshadweep,4
+All_36_Regions,5,Madhya Pradesh,0
+All_36_Regions,5,Maharashtra,4
+All_36_Regions,5,Manipur,3
+All_36_Regions,5,Meghalaya,3
+All_36_Regions,5,Mizoram,3
+All_36_Regions,5,Nagaland,3
+All_36_Regions,5,Odisha,3
+All_36_Regions,5,Puducherry,4
+All_36_Regions,5,Punjab,4
+All_36_Regions,5,Rajasthan,0
+All_36_Regions,5,Sikkim,0
+All_36_Regions,5,Tamil Nadu,4
+All_36_Regions,5,Telangana,4
+All_36_Regions,5,Tripura,3
+All_36_Regions,5,Uttar Pradesh,0
+All_36_Regions,5,Uttarakhand,0
+All_36_Regions,5,West Bengal,4
+All_36_Regions,6,Andaman and Nicobar Islands,2
+All_36_Regions,6,Andhra Pradesh,4
+All_36_Regions,6,Arunachal Pradesh,2
+All_36_Regions,6,Assam,5
+All_36_Regions,6,Bihar,4
+All_36_Regions,6,Chandigarh,3
+All_36_Regions,6,Chhattisgarh,4
+All_36_Regions,6,Dadra and Nagar Haveli,0
+All_36_Regions,6,Daman and Diu,0
+All_36_Regions,6,Delhi,3
+All_36_Regions,6,Goa,0
+All_36_Regions,6,Gujarat,0
+All_36_Regions,6,Haryana,0
+All_36_Regions,6,Himachal Pradesh,4
+All_36_Regions,6,Jammu and Kashmir,1
+All_36_Regions,6,Jharkhand,4
+All_36_Regions,6,Karnataka,0
+All_36_Regions,6,Kerala,2
+All_36_Regions,6,Lakshadweep,0
+All_36_Regions,6,Madhya Pradesh,4
+All_36_Regions,6,Maharashtra,0
+All_36_Regions,6,Manipur,5
+All_36_Regions,6,Meghalaya,5
+All_36_Regions,6,Mizoram,5
+All_36_Regions,6,Nagaland,2
+All_36_Regions,6,Odisha,5
+All_36_Regions,6,Puducherry,0
+All_36_Regions,6,Punjab,0
+All_36_Regions,6,Rajasthan,4
+All_36_Regions,6,Sikkim,4
+All_36_Regions,6,Tamil Nadu,0
+All_36_Regions,6,Telangana,0
+All_36_Regions,6,Tripura,5
+All_36_Regions,6,Uttar Pradesh,4
+All_36_Regions,6,Uttarakhand,4
+All_36_Regions,6,West Bengal,0
+Without_Jammu_Kashmir,2,Andaman and Nicobar Islands,0
+Without_Jammu_Kashmir,2,Andhra Pradesh,1
+Without_Jammu_Kashmir,2,Arunachal Pradesh,0
+Without_Jammu_Kashmir,2,Assam,0
+Without_Jammu_Kashmir,2,Bihar,0
+Without_Jammu_Kashmir,2,Chandigarh,1
+Without_Jammu_Kashmir,2,Chhattisgarh,0
+Without_Jammu_Kashmir,2,Dadra and Nagar Haveli,1
+Without_Jammu_Kashmir,2,Daman and Diu,1
+Without_Jammu_Kashmir,2,Delhi,1
+Without_Jammu_Kashmir,2,Goa,1
+Without_Jammu_Kashmir,2,Gujarat,1
+Without_Jammu_Kashmir,2,Haryana,1
+Without_Jammu_Kashmir,2,Himachal Pradesh,0
+Without_Jammu_Kashmir,2,Jharkhand,0
+Without_Jammu_Kashmir,2,Karnataka,1
+Without_Jammu_Kashmir,2,Kerala,0
+Without_Jammu_Kashmir,2,Lakshadweep,1
+Without_Jammu_Kashmir,2,Madhya Pradesh,0
+Without_Jammu_Kashmir,2,Maharashtra,1
+Without_Jammu_Kashmir,2,Manipur,1
+Without_Jammu_Kashmir,2,Meghalaya,0
+Without_Jammu_Kashmir,2,Mizoram,1
+Without_Jammu_Kashmir,2,Nagaland,0
+Without_Jammu_Kashmir,2,Odisha,0
+Without_Jammu_Kashmir,2,Puducherry,1
+Without_Jammu_Kashmir,2,Punjab,1
+Without_Jammu_Kashmir,2,Rajasthan,0
+Without_Jammu_Kashmir,2,Sikkim,0
+Without_Jammu_Kashmir,2,Tamil Nadu,1
+Without_Jammu_Kashmir,2,Telangana,1
+Without_Jammu_Kashmir,2,Tripura,0
+Without_Jammu_Kashmir,2,Uttar Pradesh,0
+Without_Jammu_Kashmir,2,Uttarakhand,0
+Without_Jammu_Kashmir,2,West Bengal,1
+Without_Jammu_Kashmir,3,Andaman and Nicobar Islands,0
+Without_Jammu_Kashmir,3,Andhra Pradesh,1
+Without_Jammu_Kashmir,3,Arunachal Pradesh,2
+Without_Jammu_Kashmir,3,Assam,2
+Without_Jammu_Kashmir,3,Bihar,2
+Without_Jammu_Kashmir,3,Chandigarh,1
+Without_Jammu_Kashmir,3,Chhattisgarh,2
+Without_Jammu_Kashmir,3,Dadra and Nagar Haveli,1
+Without_Jammu_Kashmir,3,Daman and Diu,1
+Without_Jammu_Kashmir,3,Delhi,1
+Without_Jammu_Kashmir,3,Goa,1
+Without_Jammu_Kashmir,3,Gujarat,1
+Without_Jammu_Kashmir,3,Haryana,1
+Without_Jammu_Kashmir,3,Himachal Pradesh,0
+Without_Jammu_Kashmir,3,Jharkhand,2
+Without_Jammu_Kashmir,3,Karnataka,1
+Without_Jammu_Kashmir,3,Kerala,2
+Without_Jammu_Kashmir,3,Lakshadweep,1
+Without_Jammu_Kashmir,3,Madhya Pradesh,2
+Without_Jammu_Kashmir,3,Maharashtra,1
+Without_Jammu_Kashmir,3,Manipur,2
+Without_Jammu_Kashmir,3,Meghalaya,0
+Without_Jammu_Kashmir,3,Mizoram,2
+Without_Jammu_Kashmir,3,Nagaland,0
+Without_Jammu_Kashmir,3,Odisha,2
+Without_Jammu_Kashmir,3,Puducherry,1
+Without_Jammu_Kashmir,3,Punjab,1
+Without_Jammu_Kashmir,3,Rajasthan,2
+Without_Jammu_Kashmir,3,Sikkim,0
+Without_Jammu_Kashmir,3,Tamil Nadu,1
+Without_Jammu_Kashmir,3,Telangana,1
+Without_Jammu_Kashmir,3,Tripura,2
+Without_Jammu_Kashmir,3,Uttar Pradesh,2
+Without_Jammu_Kashmir,3,Uttarakhand,0
+Without_Jammu_Kashmir,3,West Bengal,1
+Without_Jammu_Kashmir,4,Andaman and Nicobar Islands,0
+Without_Jammu_Kashmir,4,Andhra Pradesh,3
+Without_Jammu_Kashmir,4,Arunachal Pradesh,2
+Without_Jammu_Kashmir,4,Assam,2
+Without_Jammu_Kashmir,4,Bihar,2
+Without_Jammu_Kashmir,4,Chandigarh,1
+Without_Jammu_Kashmir,4,Chhattisgarh,2
+Without_Jammu_Kashmir,4,Dadra and Nagar Haveli,3
+Without_Jammu_Kashmir,4,Daman and Diu,3
+Without_Jammu_Kashmir,4,Delhi,1
+Without_Jammu_Kashmir,4,Goa,3
+Without_Jammu_Kashmir,4,Gujarat,3
+Without_Jammu_Kashmir,4,Haryana,3
+Without_Jammu_Kashmir,4,Himachal Pradesh,0
+Without_Jammu_Kashmir,4,Jharkhand,2
+Without_Jammu_Kashmir,4,Karnataka,3
+Without_Jammu_Kashmir,4,Kerala,2
+Without_Jammu_Kashmir,4,Lakshadweep,3
+Without_Jammu_Kashmir,4,Madhya Pradesh,2
+Without_Jammu_Kashmir,4,Maharashtra,3
+Without_Jammu_Kashmir,4,Manipur,3
+Without_Jammu_Kashmir,4,Meghalaya,0
+Without_Jammu_Kashmir,4,Mizoram,3
+Without_Jammu_Kashmir,4,Nagaland,0
+Without_Jammu_Kashmir,4,Odisha,2
+Without_Jammu_Kashmir,4,Puducherry,3
+Without_Jammu_Kashmir,4,Punjab,3
+Without_Jammu_Kashmir,4,Rajasthan,2
+Without_Jammu_Kashmir,4,Sikkim,0
+Without_Jammu_Kashmir,4,Tamil Nadu,3
+Without_Jammu_Kashmir,4,Telangana,3
+Without_Jammu_Kashmir,4,Tripura,2
+Without_Jammu_Kashmir,4,Uttar Pradesh,2
+Without_Jammu_Kashmir,4,Uttarakhand,2
+Without_Jammu_Kashmir,4,West Bengal,3
+Without_Jammu_Kashmir,5,Andaman and Nicobar Islands,0
+Without_Jammu_Kashmir,5,Andhra Pradesh,4
+Without_Jammu_Kashmir,5,Arunachal Pradesh,1
+Without_Jammu_Kashmir,5,Assam,1
+Without_Jammu_Kashmir,5,Bihar,1
+Without_Jammu_Kashmir,5,Chandigarh,3
+Without_Jammu_Kashmir,5,Chhattisgarh,1
+Without_Jammu_Kashmir,5,Dadra and Nagar Haveli,4
+Without_Jammu_Kashmir,5,Daman and Diu,4
+Without_Jammu_Kashmir,5,Delhi,3
+Without_Jammu_Kashmir,5,Goa,4
+Without_Jammu_Kashmir,5,Gujarat,4
+Without_Jammu_Kashmir,5,Haryana,4
+Without_Jammu_Kashmir,5,Himachal Pradesh,1
+Without_Jammu_Kashmir,5,Jharkhand,1
+Without_Jammu_Kashmir,5,Karnataka,4
+Without_Jammu_Kashmir,5,Kerala,1
+Without_Jammu_Kashmir,5,Lakshadweep,4
+Without_Jammu_Kashmir,5,Madhya Pradesh,1
+Without_Jammu_Kashmir,5,Maharashtra,4
+Without_Jammu_Kashmir,5,Manipur,2
+Without_Jammu_Kashmir,5,Meghalaya,2
+Without_Jammu_Kashmir,5,Mizoram,4
+Without_Jammu_Kashmir,5,Nagaland,2
+Without_Jammu_Kashmir,5,Odisha,1
+Without_Jammu_Kashmir,5,Puducherry,4
+Without_Jammu_Kashmir,5,Punjab,4
+Without_Jammu_Kashmir,5,Rajasthan,1
+Without_Jammu_Kashmir,5,Sikkim,2
+Without_Jammu_Kashmir,5,Tamil Nadu,4
+Without_Jammu_Kashmir,5,Telangana,4
+Without_Jammu_Kashmir,5,Tripura,1
+Without_Jammu_Kashmir,5,Uttar Pradesh,1
+Without_Jammu_Kashmir,5,Uttarakhand,1
+Without_Jammu_Kashmir,5,West Bengal,4
+Without_Jammu_Kashmir,6,Andaman and Nicobar Islands,4
+Without_Jammu_Kashmir,6,Andhra Pradesh,1
+Without_Jammu_Kashmir,6,Arunachal Pradesh,0
+Without_Jammu_Kashmir,6,Assam,0
+Without_Jammu_Kashmir,6,Bihar,2
+Without_Jammu_Kashmir,6,Chandigarh,5
+Without_Jammu_Kashmir,6,Chhattisgarh,2
+Without_Jammu_Kashmir,6,Dadra and Nagar Haveli,1
+Without_Jammu_Kashmir,6,Daman and Diu,1
+Without_Jammu_Kashmir,6,Delhi,5
+Without_Jammu_Kashmir,6,Goa,1
+Without_Jammu_Kashmir,6,Gujarat,1
+Without_Jammu_Kashmir,6,Haryana,1
+Without_Jammu_Kashmir,6,Himachal Pradesh,2
+Without_Jammu_Kashmir,6,Jharkhand,2
+Without_Jammu_Kashmir,6,Karnataka,1
+Without_Jammu_Kashmir,6,Kerala,0
+Without_Jammu_Kashmir,6,Lakshadweep,1
+Without_Jammu_Kashmir,6,Madhya Pradesh,2
+Without_Jammu_Kashmir,6,Maharashtra,1
+Without_Jammu_Kashmir,6,Manipur,0
+Without_Jammu_Kashmir,6,Meghalaya,3
+Without_Jammu_Kashmir,6,Mizoram,0
+Without_Jammu_Kashmir,6,Nagaland,3
+Without_Jammu_Kashmir,6,Odisha,0
+Without_Jammu_Kashmir,6,Puducherry,1
+Without_Jammu_Kashmir,6,Punjab,1
+Without_Jammu_Kashmir,6,Rajasthan,2
+Without_Jammu_Kashmir,6,Sikkim,3
+Without_Jammu_Kashmir,6,Tamil Nadu,1
+Without_Jammu_Kashmir,6,Telangana,1
+Without_Jammu_Kashmir,6,Tripura,0
+Without_Jammu_Kashmir,6,Uttar Pradesh,2
+Without_Jammu_Kashmir,6,Uttarakhand,2
+Without_Jammu_Kashmir,6,West Bengal,1
