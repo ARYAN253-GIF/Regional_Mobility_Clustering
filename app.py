@@ -15,7 +15,7 @@ st.set_page_config(
     page_title="Mobility Stories | India",
     page_icon="🌍",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
 BASE = Path(__file__).resolve().parent
@@ -70,6 +70,56 @@ div[data-testid="stMetric"] [data-testid="stMetricValue"]{color:var(--green)!imp
 .stSelectbox div[data-baseweb="select"]>div,.stTextInput input{background:var(--white);color:var(--ink);border-color:#C8D0C7;border-radius:3px}
 [data-testid="stDataFrame"]{border:1px solid var(--line)}
 [data-testid="stExpander"]{background:var(--white);border:1px solid var(--line);border-radius:3px}
+footer{visibility:hidden}
+
+/* Midnight blue / black / restrained neon-red redesign */
+:root{
+ --paper:#080B12; --green:#111827; --clay:#FF3355; --ink:#E8EEF8;
+ --muted:#9AA9BF; --white:#111827; --line:#263449;
+ --blue:#2878F0; --blue-bright:#4B9BFF;
+}
+html,body,[class*="css"]{font-family:'DM Sans',sans-serif}
+.stApp{background:radial-gradient(ellipse at 50% -20%,#142849 0%,#0A1220 42%,#070A10 82%);color:#E8EEF8}
+[data-testid="stHeader"]{background:rgba(8,11,18,.92)}
+.block-container{max-width:1480px;padding-top:1.1rem;padding-bottom:3.5rem}
+h1,h2,h3,h4{font-family:'Playfair Display',Georgia,serif!important;color:#F4F7FC!important}
+p,li,label,.stMarkdown{color:#D5DFEF}
+hr{border-color:#263449}
+/* Hide the old left rail completely; navigation now lives above the page. */
+[data-testid="stSidebar"], [data-testid="collapsedControl"]{display:none!important}
+.top-brand{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:5px 2px 16px;border-bottom:1px solid #263449;margin-bottom:12px}
+.top-brand-name{font-family:'Playfair Display',Georgia,serif;font-size:25px;line-height:1.1;color:#F5F7FC}
+.top-brand-name span{color:#4B9BFF}
+.top-brand-note{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#91A5C2}
+.top-nav-label{font-size:10px;letter-spacing:2px;text-transform:uppercase;color:#8196B5;margin:7px 0 5px}
+div[data-testid="stRadio"]>label{display:none}
+div[data-testid="stRadio"] [role="radiogroup"]{display:flex;flex-wrap:wrap;gap:7px;padding:5px 0 15px;border-bottom:1px solid #263449;margin-bottom:26px}
+div[data-testid="stRadio"] [role="radiogroup"] label{background:#101827;border:1px solid #263449;border-radius:9px;padding:8px 13px;margin:0;transition:all .15s ease}
+div[data-testid="stRadio"] [role="radiogroup"] label:hover{border-color:#4B9BFF;background:#14233A}
+div[data-testid="stRadio"] [role="radiogroup"] label:has(input:checked){background:#17345B;border-color:#2878F0;box-shadow:inset 0 -2px 0 #FF3355}
+div[data-testid="stRadio"] [role="radiogroup"] label p{color:#DCE7F7!important;font-size:13px;font-weight:600}
+div[data-testid="stRadio"] [role="radiogroup"] label>div:first-child{display:none}
+.hero-editorial,.hero{background:linear-gradient(115deg,#101D32 0%,#102B50 58%,#101827 100%);color:#F5F7FC;border:1px solid #29466D;border-radius:15px;padding:clamp(28px,5vw,58px);min-height:320px;position:relative;overflow:hidden}
+.hero-editorial:after{border-color:rgba(75,155,255,.22);box-shadow:0 0 0 35px rgba(40,120,240,.06),0 0 0 75px rgba(40,120,240,.035)}
+.hero-editorial h1,.hero h1{color:#F5F7FC!important}
+.hero-editorial p,.hero p{color:#C5D4E9}
+.kicker,.section-kicker,.eyebrow{color:#4B9BFF!important}
+.hero-editorial .kicker,.hero .eyebrow{color:#FF5570!important}
+.number-card,.editorial-card,.story-card,.metric{background:linear-gradient(145deg,#121D2D,#0E1521)!important;border:1px solid #263449!important;color:#E8EEF8}
+.number-card .n,.metric-value{color:#F4F7FC!important}
+.number-card .l,.metric-label,.metric-note,.editorial-card p,.story-card p,.caption-editorial{color:#9AAAC1!important}
+.editorial-card .index{color:#FF5570!important}
+.callout{background:#12233A;border-left:4px solid #FF3355;color:#DCE7F7}
+div[data-testid="stMetric"]{background:#111C2B;border:1px solid #263449}
+div[data-testid="stMetric"] label{color:#9AAAC1!important}
+div[data-testid="stMetric"] [data-testid="stMetricValue"]{color:#F4F7FC!important}
+.stButton>button,.stDownloadButton>button{background:#1E63C5;color:white;border:1px solid #347FE5;border-radius:9px;font-weight:700;min-height:41px}
+.stButton>button:hover,.stDownloadButton>button:hover{background:#2878F0;border-color:#FF3355;color:white}
+.stSelectbox div[data-baseweb="select"]>div,.stTextInput input,.stMultiSelect div[data-baseweb="select"]>div{background:#111C2B;color:#E8EEF8;border-color:#31445F;border-radius:8px}
+[data-testid="stDataFrame"]{border:1px solid #263449;border-radius:9px}
+[data-testid="stExpander"]{background:#111827;border:1px solid #263449;border-radius:9px}
+div[data-testid="stAlert"]{background:#111E30;border-color:#2A4B73;color:#DCE7F7}
+[data-testid="stCaptionContainer"]{color:#91A2BB}
 footer{visibility:hidden}
 </style>
 """, unsafe_allow_html=True)
@@ -133,26 +183,21 @@ def chart_theme(fig, height=430):
     return fig
 
 # =========================================================
-# NAVIGATION
+# TOP NAVIGATION — moved from the left sidebar into a horizontal menu
 # =========================================================
-PAGES = [
-    "✨ Discover", "🗺️ The Data", "🎨 Mobility Patterns",
-    "🔎 Compare Regions", "📊 Was It Reliable?", "🧪 Research Lab"
-]
 PAGES = [
     "01  The story", "02  The measures", "03  The patterns",
     "04  Compare regions", "05  Check the evidence",
     "06  Sensitivity check", "07  Distance methods", "08  Research notes"
 ]
-with st.sidebar:
-    st.markdown('<div class="side-mark">Mobility<br>Stories.</div><div class="side-kicker">An India mobility study</div>', unsafe_allow_html=True)
-    st.markdown("---")
-    page = st.radio("CONTENTS", PAGES, label_visibility="visible")
-    st.markdown("---")
-    st.markdown('<div class="side-kicker" style="color:#E7A18A">THE STUDY AT A GLANCE</div>', unsafe_allow_html=True)
-    st.markdown('<div class="side-note"><b>36</b> regions<br><b>6</b> mobility indicators<br>January – October 2022</div>', unsafe_allow_html=True)
-    st.markdown("---")
-    st.markdown('<div class="side-note">An exploratory research project.<br><br>Read the findings at your own pace.</div>', unsafe_allow_html=True)
+st.markdown(
+    '<div class="top-brand"><div><div class="top-brand-name">Mobility <span>Stories.</span></div>'
+    '<div class="top-brand-note">An India mobility study · 2022</div></div>'
+    '<div class="top-brand-note">Regional mobility · Clustering research</div></div>',
+    unsafe_allow_html=True
+)
+st.markdown('<div class="top-nav-label">Explore the study</div>', unsafe_allow_html=True)
+page = st.radio("Explore the study", PAGES, horizontal=True, label_visibility="collapsed")
 
 # =========================================================
 # DISCOVER
@@ -238,7 +283,7 @@ elif page == "03  The patterns":
     with a: metric_box("Groups shown",k,"Selected by you")
     with b: metric_box("Regions included",len(data),"Current view")
     with c: metric_box("2D map coverage",f"{ev:.1f}%","Variation represented by PCA axes")
-    fig = px.scatter(plot,x="PC1",y="PC2",color="Group",hover_name="Region",hover_data={"PC1":":.2f","PC2":":.2f"},color_discrete_sequence=["#55a8ff","#a58bff","#36d6bd","#ffb45c","#ff6f91","#c7dc72"],title="Each dot is one region · nearby dots have more similar profiles")
+    fig = px.scatter(plot,x="PC1",y="PC2",color="Group",hover_name="Region",hover_data={"PC1":":.2f","PC2":":.2f"},color_discrete_sequence=["#4B9BFF","#FF3355","#76B7FF","#8B9BB5","#2D65B0","#D5E5FF"],title="Each dot is one region · nearby dots have more similar profiles")
     fig.update_traces(marker=dict(size=14,line=dict(width=1,color="#f4f7ff")))
     st.plotly_chart(chart_theme(fig,530),use_container_width=True)
     dist = plot["Group"].value_counts().sort_index().rename_axis("Group").reset_index(name="Regions")
@@ -264,7 +309,7 @@ elif page == "04  Compare regions":
     with right: r2 = st.selectbox("Region B",options,index=options.index("Delhi") if "Delhi" in options else min(1,len(options)-1))
     compare = pd.DataFrame({"Indicator":[friendly[x] for x in regional.columns],r1:regional.loc[r1].values,r2:regional.loc[r2].values})
     melted = compare.melt("Indicator",var_name="Region",value_name="Average change (%)")
-    fig = px.bar(melted,x="Indicator",y="Average change (%)",color="Region",barmode="group",title="Average mobility change by category",color_discrete_sequence=["#55a8ff","#b18cff"])
+    fig = px.bar(melted,x="Indicator",y="Average change (%)",color="Region",barmode="group",title="Average mobility change by category",color_discrete_sequence=["#4B9BFF","#FF3355"])
     fig.update_xaxes(tickangle=-20)
     st.plotly_chart(chart_theme(fig,440),use_container_width=True)
     st.dataframe(compare.set_index("Indicator").round(2),use_container_width=True)
