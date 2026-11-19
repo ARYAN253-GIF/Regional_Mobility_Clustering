@@ -413,7 +413,7 @@ elif page == "07  Distance methods":
         fig=go.Figure()
         fig.add_trace(go.Scatter(x=manhattan["K"],y=manhattan["Euclidean_Silhouette"],mode="lines+markers",name="Euclidean K-Means"))
         fig.add_trace(go.Scatter(x=manhattan["K"],y=manhattan["Manhattan_Silhouette"],mode="lines+markers",name="Manhattan K-Medians"))
-        st.plotly_chart(plot_style(fig,370),use_container_width=True)
+        st.plotly_chart(chart_theme(fig,370),use_container_width=True)
         st.caption("Each silhouette score uses its corresponding distance metric. Euclidean WCSS and Manhattan objective values are not directly comparable.")
     else:
         st.warning("manhattan_comparison.csv is missing.")
